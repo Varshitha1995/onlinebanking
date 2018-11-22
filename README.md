@@ -1,5 +1,2 @@
 # onlinebanking
-onlinebanking-demo...
-*!!!!!!*
-#add
-
+Java SDK demo
