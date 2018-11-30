@@ -147,7 +147,6 @@
       			</plugins>
     		</pluginManagement>
 		<finalName>onlinebanking</finalName>
-		<version>0.0.3</version>
 	</build>
 </project>
 
