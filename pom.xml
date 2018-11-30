@@ -146,7 +146,6 @@
 
       			</plugins>
     		</pluginManagement>
-		<finalName>onlinebanking</finalName>
 	</build>
 </project>
 
