@@ -5,7 +5,7 @@
 	<groupId>com.cts.devops</groupId>
 	<artifactId>onlinebanking</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.8</version>
+	<version>0.0.9</version>
 	<name>OnlineBanking Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -154,6 +154,11 @@
 					<groupId>org.sonatype.plugins</groupId>
     					<artifactId>nexus-staging-maven-plugin</artifactId>
 					<version>1.6.8</version>
+					<extensions>true</extensions>
+					<configuration>
+						<serverId>nexus</serverId>
+						<nexusUrl>http://admin:admin123@10.224.90.37:8081/repository/blockchain</nexusUrl>
+					</configuration>
 				</plugin>
 
       			</plugins>
