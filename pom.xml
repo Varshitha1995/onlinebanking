@@ -11,7 +11,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.language>java</sonar.language>
-		<sonar.exclusions>src/test/java/*,src/main/java/actionClass/*,src/main/java/actionForm/*</sonar.exclusions>
+		<sonar.exclusions>src/test/java/*,src/main/java/actionClass/*,src/main/java/actionForm/*,src/main/java/dao/*,src/main/java/daoImpl/*,src/main/java/util/*</sonar.exclusions>
 	</properties>
 	<dependencies>
 
