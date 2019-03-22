@@ -154,11 +154,6 @@
 					<groupId>org.sonatype.plugins</groupId>
     					<artifactId>nexus-staging-maven-plugin</artifactId>
 					<version>1.6.8</version>
-					<extensions>true</extensions>
-					<configuration>
-						<serverId>nexus</serverId>
-						<nexusUrl>http://admin:admin123@10.224.90.37:8081/repository/blockchain</nexusUrl>
-					</configuration>
 				</plugin>
 
       			</plugins>
