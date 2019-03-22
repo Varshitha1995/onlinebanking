@@ -5,12 +5,13 @@
 	<groupId>com.cts.devops</groupId>
 	<artifactId>onlinebanking</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.5</version>
+	<version>0.0.6</version>
 	<name>OnlineBanking Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.language>java</sonar.language>
+		<sonar.exclusions>/var/jenkins_home/workspace/OnlineBanking/src/test/java/*</sonar.exclusions>
 	</properties>
 	<dependencies>
 
