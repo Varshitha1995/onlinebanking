@@ -13,8 +13,7 @@
 		<sonar.language>java</sonar.language>
 	</properties>
 	<distributionManagement>
-	    <downloadUrl>http://10.224.90.37:8081/repository/blockchain</downloadUrl>
-	    <status>deployed</status>
+		<downloadUrl>http://10.224.90.37:8081/repository/blockchain</downloadUrl>
 	 </distributionManagement>
 	<dependencies>
 
